@@ -1,53 +1,48 @@
+// import React from 'react';
+// import './Header.css'
+
+// const Header = () => {
+//     return (
+//         <div className='background-image flex flex-col items-center justify-center text-center bg-gray-100 bg-opacity-70 h-[65vh]'>
+//                 <h2 className='text-5xl text-white font-bold'>Welcome to <span className='text-orange-400'>Foot</span>events</h2>
+//                 <h3 className='font-semibold text-3xl text-orange-400'>We are a team of professionals</h3>
+//                 <h3 className='font-semibold text-3xl text-orange-400'>Working on football event managements since 2001</h3>
+//                 <p className='font-semibold text-white text-3xl'>with over 22 years experience and an enviable reputation, <br />
+//                 we offer a highly professionl and personal service</p>
+//         </div>
+//     );
+// };
+
+// export default Header;
+
 import React from 'react';
-import image from '../../assets/header.png'
+import './Header.css';
 
 const Header = () => {
-    return (
-        <div>
-                <div className="carousel w-full">
-                <div id="slide1" className="carousel-item relative w-full">
-                    <img
-                    src={image}
-                    className="w-full" />
-                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide4" className="btn btn-circle">❮</a>
-                    <a href="#slide2" className="btn btn-circle">❯</a>
-                    
-                    </div>
-                    <div className='flex items-center ml-28'>
-                        <h1>Join The <br />Graphic Design <br />Conference</h1>
-                    </div>
-                </div>
-                <div id="slide2" className="carousel-item relative w-full">
-                    <img
-                    src={image}
-                    className="w-full" />
-                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide1" className="btn btn-circle">❮</a>
-                    <a href="#slide3" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide3" className="carousel-item relative w-full">
-                    <img
-                    src={image}
-                    className="w-full" />
-                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide2" className="btn btn-circle">❮</a>
-                    <a href="#slide4" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" className="carousel-item relative w-full">
-                    <img
-                    src={image}
-                    className="w-full" />
-                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide3" className="btn btn-circle">❮</a>
-                    <a href="#slide1" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                </div>
-        </div>
-    );
+  return (
+    <div className="relative h-[65vh] flex items-center  justify-center text-center">
+      {/* Overlay with background image from CSS */}
+      <div className="background-image absolute inset-0 z-[-1]"></div>
+      <div className="absolute inset-0 bg-gray-900/70 z-0"></div>
+
+      {/* Content */}
+      <div className="relative space-y-4 z-10 flex flex-col items-center px-4 max-w-4xl">
+        <h2 className="text-5xl text-white font-bold mb-4">
+          Welcome to <span className="text-orange-400">Foot</span>events
+        </h2>
+        <h3 className="font-semibold text-3xl text-orange-400">
+          We are a team of professionals
+        </h3>
+        <h3 className="font-semibold text-3xl text-orange-400 mb-4">
+          Working on football event managements since 2001
+        </h3>
+        <p className="font-semibold text-white text-2xl">
+          with over 22 years experience and an enviable reputation, <br />
+          we offer a highly professional and personal service.
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default Header;

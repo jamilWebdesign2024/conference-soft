@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "thumbnail": "https://i.postimg.cc/Y0kXsRg3/technology-innovation-digital-evolution-homepage-concept.jpg",
+    "name": "Global Tech Conference 2025",
+    "category": "Conference",
+    "date": "2025-06-10",
+    "location": "Silicon Valley, USA",
+    "entryFee": "$120",
+    "organizer": "Tech World Inc.",
+    "time": "10:00 AM - 5:00 PM",
+    "description": "Join global tech leaders and innovators under one roof."
+  },
+  {
+    "id": 2,
+    "thumbnail": "https://i.postimg.cc/HLVFw648/saas-concept-collage.jpg",
+    "name": "AI & Machine Learning Summit",
+    "category": "Conference",
+    "date": "2025-07-02",
+    "location": "Toronto, Canada",
+    "entryFee": "Free",
+    "organizer": "AI Global",
+    "time": "9:00 AM - 4:00 PM",
+    "description": "Explore the future of AI with world-class researchers."
+  },
+  {
+    "id": 3,
+    "thumbnail": "https://i.postimg.cc/dVWzZbdK/representations-user-experience-interface-design.jpg",
+    "name": "Digital Marketing Conference",
+    "category": "Conference",
+    "date": "2025-08-15",
+    "location": "London, UK",
+    "entryFee": "$50",
+    "organizer": "MarketGurus",
+    "time": "11:00 AM - 6:00 PM",
+    "description": "Learn about the latest trends in digital marketing."
+  },
+  {
+    "id": 4,
+    "thumbnail": "https://i.postimg.cc/YC4x8ZZ7/it-professionals-using-artificial-intelligence-augmented-reality-hologram.jpg",
+    "name": "Startup Founders Forum",
+    "category": "Conference",
+    "date": "2025-06-25",
+    "location": "Berlin, Germany",
+    "entryFee": "$35",
+    "organizer": "EU Startups",
+    "time": "10:00 AM - 4:00 PM",
+    "description": "Networking and learning opportunity for startup founders."
+  },
+  {
+    "id": 5,
+    "thumbnail": "https://i.postimg.cc/W1fH1MLN/high-angle-business-meeting-with-women.jpg",
+    "name": "Healthcare Innovation Conference",
+    "category": "Conference",
+    "date": "2025-09-05",
+    "location": "New York, USA",
+    "entryFee": "$70",
+    "organizer": "HealthTech USA",
+    "time": "9:30 AM - 5:30 PM",
+    "description": "Innovations that are shaping the future of healthcare."
+  },
+  {
+    "id": 6,
+    "thumbnail": "https://i.postimg.cc/RhQYSy9y/happy-businessman-giving-presentation-global-warming-his-female-colleagues.jpg",
+    "name": "Women in Tech Conference",
+    "category": "Conference",
+    "date": "2025-10-12",
+    "location": "Amsterdam, Netherlands",
+    "entryFee": "Free",
+    "organizer": "WomenTech Global",
+    "time": "10:00 AM - 6:00 PM",
+    "description": "Empowering women leaders in technology."
+  },
+  {
+    "id": 7,
+    "thumbnail": "https://i.postimg.cc/Bbxr8t5h/glen-carrie-8xv-Bmg-Zd8-A-unsplash.jpg",
+    "name": "Blockchain & Fintech Summit",
+    "category": "Conference",
+    "date": "2025-11-01",
+    "location": "Singapore",
+    "entryFee": "$90",
+    "organizer": "Asia Crypto Events",
+    "time": "8:00 AM - 3:00 PM",
+    "description": "Future of blockchain and decentralized finance."
+  },
+  {
+    "id": 8,
+    "thumbnail": "https://i.postimg.cc/d3qBB1PN/digital-marketing-with-icons-business-people.jpg",
+    "name": "Green Energy Conference",
+    "category": "Conference",
+    "date": "2025-07-20",
+    "location": "Copenhagen, Denmark",
+    "entryFee": "$60",
+    "organizer": "Green Future Org",
+    "time": "10:00 AM - 4:00 PM",
+    "description": "Sustainable energy innovations and discussions."
+  },
+  {
+    "id": 9,
+    "thumbnail": "https://i.postimg.cc/5NK3BbPp/digital-blue-hud-interface-global-concept.jpg",
+    "name": "UX/UI Design Conference",
+    "category": "Conference",
+    "date": "2025-06-28",
+    "location": "San Francisco, USA",
+    "entryFee": "$45",
+    "organizer": "DesignX",
+    "time": "12:00 PM - 6:00 PM",
+    "description": "Deep dive into the latest in UX and UI design trends."
+  },
+  {
+    "id": 10,
+    "thumbnail": "https://i.postimg.cc/0yN4vV4X/computer-network-computer-security.jpg",
+    "name": "DevOps & Cloud Expo",
+    "category": "Conference",
+    "date": "2025-08-08",
+    "location": "Bangalore, India",
+    "entryFee": "$30",
+    "organizer": "DevCloud India",
+    "time": "9:00 AM - 5:00 PM",
+    "description": "Automating deployment and scaling in the cloud age."
+  },
+  {
+    "id": 11,
+    "thumbnail": "https://i.postimg.cc/k4W1szVG/business-crowdfunding.jpg",
+    "name": "Cybersecurity Leaders Meet",
+    "category": "Conference",
+    "date": "2025-09-18",
+    "location": "Tokyo, Japan",
+    "entryFee": "$80",
+    "organizer": "CyberShield Asia",
+    "time": "10:00 AM - 6:00 PM",
+    "description": "Defending the future: security in a digital world."
+  },
+  {
+    "id": 12,
+    "thumbnail": "https://i.postimg.cc/50FdVsXW/anoof-c-j-Sp2b-W67-DK0-unsplash.jpg",
+    "name": "Data Science & Analytics Expo",
+    "category": "Conference",
+    "date": "2025-10-22",
+    "location": "Paris, France",
+    "entryFee": "$55",
+    "organizer": "DataPower Europe",
+    "time": "11:00 AM - 5:00 PM",
+    "description": "From big data to smart insights explore the power of analytics."
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
