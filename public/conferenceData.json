@@ -9,7 +9,7 @@
     "entryFee": "$120",
     "organizer": "Tech World Inc.",
     "time": "10:00 AM - 5:00 PM",
-    "description": "Join global tech leaders and innovators under one roof."
+    "description": "Global tech conferences are major events that bring together industry leaders, policymakers, and experts to discuss current trends, emerging technologies, and the impact of technology on global issues"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "entryFee": "Free",
     "organizer": "AI Global",
     "time": "9:00 AM - 4:00 PM",
-    "description": "Explore the future of AI with world-class researchers."
+    "description": "The AI & Machine Learning Summit is a 2-day immersion into the possibilities inherent in an AI-driven future, offering the opportunity to harness AI & ML's transformative potentil"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "entryFee": "$50",
     "organizer": "MarketGurus",
     "time": "11:00 AM - 6:00 PM",
-    "description": "Learn about the latest trends in digital marketing."
+    "description": "Digital marketing conferences are events that bring together professionals, experts, and innovators in the field of online marketing to share insights, strategies, and the latest trends"
   },
   {
     "id": 4,
