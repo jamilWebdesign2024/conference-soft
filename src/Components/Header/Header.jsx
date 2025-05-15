@@ -1,20 +1,3 @@
-// import React from 'react';
-// import './Header.css'
-
-// const Header = () => {
-//     return (
-//         <div className='background-image flex flex-col items-center justify-center text-center bg-gray-100 bg-opacity-70 h-[65vh]'>
-//                 <h2 className='text-5xl text-white font-bold'>Welcome to <span className='text-orange-400'>Foot</span>events</h2>
-//                 <h3 className='font-semibold text-3xl text-orange-400'>We are a team of professionals</h3>
-//                 <h3 className='font-semibold text-3xl text-orange-400'>Working on football event managements since 2001</h3>
-//                 <p className='font-semibold text-white text-3xl'>with over 22 years experience and an enviable reputation, <br />
-//                 we offer a highly professionl and personal service</p>
-//         </div>
-//     );
-// };
-
-// export default Header;
-
 import React from 'react';
 import './Header.css';
 
@@ -23,7 +6,7 @@ const Header = () => {
     <div className="relative h-[65vh] flex items-center  justify-center text-center">
       {/* Overlay with background image from CSS */}
       <div className="background-image absolute inset-0 z-[-1]"></div>
-      <div className="absolute inset-0 bg-gray-900/70 z-0"></div>
+      <div className="absolute inset-0 bg-gray-900/80 z-0"></div>
 
       {/* Content */}
       <div className="relative space-y-4 z-10 flex flex-col items-center px-4 max-w-4xl">
