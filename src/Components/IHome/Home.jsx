@@ -9,6 +9,8 @@ const Home = () => {
     const consData = useLoaderData();
     // console.log(consData);
 
+   
+
     return (
         <div>
             <Header />

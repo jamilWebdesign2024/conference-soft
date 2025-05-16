@@ -1,6 +1,13 @@
-.background-image{
-    background-image: url('../../assets/banner.jpg');
+/* .background-image{
+    background-image: url('../../assets/banner.png');
     background-position:center;
     background-size: cover;
     
+} */
+
+.background-image {
+  background-image: url('../../assets/cursor.jpg'), url('../../assets/banner.png');
+  background-position: center, top right;
+  background-size: cover, contain;
+  background-repeat: no-repeat, repeat;
 }

@@ -45,7 +45,7 @@
     "entryFee": "$35",
     "organizer": "EU Startups",
     "time": "10:00 AM - 4:00 PM",
-    "description": "Networking and learning opportunity for startup founders."
+    "description": "Our community includes the world’s most inspiring founders, pioneering investors, inventive CEOs, and impactful leaders. Together, we champion entrepreneurial innovation and put the needs of today’s founders first, via networking & events, education, professional services, investment, and philanthropy."
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "entryFee": "$70",
     "organizer": "HealthTech USA",
     "time": "9:30 AM - 5:30 PM",
-    "description": "Innovations that are shaping the future of healthcare."
+    "description": "his event brings together public sector executives, industry experts, and changemakers committed to transforming healthcare through digital innovation. Dive deep into the latest trends and technologies that are revolutionizing patient outcomes, improving efficiency, and redefining care delivery standards. "
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "entryFee": "Free",
     "organizer": "WomenTech Global",
     "time": "10:00 AM - 6:00 PM",
-    "description": "Empowering women leaders in technology."
+    "description": "​​​​​​The virtual-first conference will bring women in tech, minorities and allies from all over the world together through an interactive platform featuring live educational & training content, keynotes, engaging panels, breakout rooms, technical workshops, and networking with virtual and in-person sessions."
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "entryFee": "$90",
     "organizer": "Asia Crypto Events",
     "time": "8:00 AM - 3:00 PM",
-    "description": "Future of blockchain and decentralized finance."
+    "description": "The Global Fintech & Blockchain Conference is the largest university-led blockchain and financial technology conference in the world. It attracts top-tier university talent in addition to professionals, from all over Europe and beyond and features top founders and leaders from the most pioneering companies, funds, corporates and more."
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "entryFee": "$60",
     "organizer": "Green Future Org",
     "time": "10:00 AM - 4:00 PM",
-    "description": "Sustainable energy innovations and discussions."
+    "description": "Presented papers will be published in the Abstracts E-book of the Conference. Those communications considered to have enough quality can be further considered for publication in International Conference Journals. At the authors’ choice, those works not suitable for publication in any congress journals will be published in the Extended Proceedings E-book."
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "entryFee": "$45",
     "organizer": "DesignX",
     "time": "12:00 PM - 6:00 PM",
-    "description": "Deep dive into the latest in UX and UI design trends."
+    "description": "Whether you're a beginner taking your first steps or an established professional looking to stay on top of your game, UX design conferences are invaluable for learning and networking. They offer a chance to delve deeper into various disciplines—from User Research to UX Design Leadership—providing critical insights and new developments."
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
     "entryFee": "$30",
     "organizer": "DevCloud India",
     "time": "9:00 AM - 5:00 PM",
-    "description": "Automating deployment and scaling in the cloud age."
+    "description": "DevOps Live unites thousands of DevOps enthusiasts, thought leaders, and industry practitioners. It’s the preferred platform for forward-thinking innovators in cloud technology who aim to make a significant impact.This is your exclusive opportunity to connect with pioneers, experts, and decision-makers, and showcase your offerings to genuine buyers actively seeking solutions and services to enhance productivity, accelerate time to market, and elevate customer experiences"
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "entryFee": "$80",
     "organizer": "CyberShield Asia",
     "time": "10:00 AM - 6:00 PM",
-    "description": "Defending the future: security in a digital world."
+    "description": "Prevailing geopolitical uncertainty, a looming economic crisis and rapid advances in transformative technologies such as generative AI have had a significant impact on cybersecurity. This is evidenced in the World Economic Forum report, Global Cybersecurity Outlook 2023, where the vast majority of cyber and business leaders think it “moderately likely” or “very likely” that global geopolitical instability will lead to a far-reaching, catastrophic cyber event in the next two years."
   },
   {
     "id": 12,
@@ -141,7 +141,7 @@
     "entryFee": "$55",
     "organizer": "DataPower Europe",
     "time": "11:00 AM - 5:00 PM",
-    "description": "From big data to smart insights explore the power of analytics."
+    "description": "The Data Science & Analytics Technologies track delves into the cutting-edge tools, technologies, and methodologies that data scientists use to unlock deeper insights and drive value from their data. Presentations will highlight the shift towards scalable platforms and personalized analytics solutions, explore strategies for building data-driven organizations, and examine innovative approaches to data management and real-time analytics. We will also address how to frame critical questions that guide data investigations, assess the tangible impacts of data science in practical settings, and showcase the latest advancements in data science tools and their applications. Join us to explore how these technologies are transforming research and decision-making in the life sciences."
   }
 ]
 

@@ -6,6 +6,7 @@ import './Navbar.css';
 const links = <>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About Us</NavLink>
+        <NavLink to="/details">Details</NavLink>
         <NavLink to="/speakers">Speakers</NavLink>
         <NavLink to="login">Login</NavLink>
         <NavLink to="register">Register</NavLink>

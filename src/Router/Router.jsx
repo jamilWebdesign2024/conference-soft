@@ -3,6 +3,7 @@ import HomeLayout from "../Layouts/Home/HomeLayout";
 import Home from "../Components/IHome/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import About from "../Pages/About/About";
+import Details from "../Pages/Details/Details";
 
 const router = createBrowserRouter([
     {
@@ -17,7 +18,13 @@ const router = createBrowserRouter([
             },
             {
                 path: 'about',
+                loader: ()=>fetch('./overview.json'),
                 Component: About
+            },
+            {
+                path: 'details',
+                loader: ()=>fetch('/conferenceData.json'),
+                Component: Details
             }
         ]
     }
