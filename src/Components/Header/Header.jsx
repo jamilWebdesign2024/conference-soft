@@ -11,7 +11,7 @@ const Header = () => {
       {/* Content */}
       <div className="relative space-y-4 z-10 flex flex-col items-center px-4 max-w-4xl">
         <h2 className="text-5xl text-white font-bold mb-4">
-          Welcome to <span className="text-orange-400">Foot</span>events
+          Welcome to <span className="text-orange-400">Nexus</span>Summit
         </h2>
         <h3 className="font-semibold text-3xl text-orange-400">
           We are a team of professionals

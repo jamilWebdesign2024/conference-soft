@@ -14,15 +14,20 @@ const router = createBrowserRouter([
             {
                 index: true,
                 loader: () => fetch('/conferenceData.json'),
-                Component: Home   // ✅ Component → element
+                Component: Home   
             },
             {
                 path: 'about',
                 loader: ()=>fetch('./overview.json'),
                 Component: About
             },
-            {
+             {
                 path: 'details',
+                loader: () => fetch('/conferenceData.json'),
+                Component: Details
+            },
+            {
+                path: '/details/:id',
                 loader: ()=>fetch('/conferenceData.json'),
                 Component: Details
             }
