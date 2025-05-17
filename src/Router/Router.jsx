@@ -6,6 +6,7 @@ import About from "../Pages/About/About";
 import Details from "../Pages/Details/Details";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
+import PrivateRoute from "../Provider/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -26,12 +27,15 @@ const router = createBrowserRouter([
              {
                 path: 'details',
                 loader: () => fetch('/conferenceData.json'),
+                
                 Component: Details
             },
             {
                 path: '/details/:id',
                 loader: ()=>fetch('/conferenceData.json'),
-                Component: Details
+                element: <PrivateRoute>
+                   <Details></Details>
+                </PrivateRoute>
             },
             {
                 path: "/auth/login",

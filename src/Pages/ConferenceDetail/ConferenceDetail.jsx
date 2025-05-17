@@ -1,15 +1,16 @@
 import React from 'react';
-import { useNavigate } from 'react-router';
+// import { Link, useNavigate } from 'react-router';
+import { Link} from 'react-router';
 
 const ConferenceDetail = ({detail}) => {
 
-    const navigate =useNavigate();
+    // const navigate =useNavigate();
 
     const {id, thumbnail, name, category, date, location, entryFee, organizer, time, description}= detail;
 
-    const handleViewMore=()=>{
-        navigate(`/details/${id}`)
-    };
+    // const handleViewMore=()=>{
+    //     navigate(`/details/${id}`)
+    // };
 
 
     return (
@@ -24,7 +25,10 @@ const ConferenceDetail = ({detail}) => {
                     <p className='text-gray-700 flex-grow'>{description}</p>
                     <p className='text-blue-600 font-bold italic text-2xl'>{entryFee}</p>
                     <div className='flex justify-end'>
-                        <button onClick={handleViewMore} className='btn bg-blue-800 text-white px-3 py-2'>View more</button>
+                        <Link to={`/details/${id}`}>
+                        <button className='btn bg-blue-800 text-white px-3 py-2'>View more</button>
+                        {/* <button onClick={handleViewMore} className='btn bg-blue-800 text-white px-3 py-2'>View more</button> */}
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router';
 import icon from '../../assets/logo.png'
 import './Navbar.css';
 import { AuthContext } from '../../Provider/AuthProvder';
+import { toast } from 'react-toastify';
+import userIcon from '../../assets/user.png'
 
 const links = <>
         <NavLink to="/">Home</NavLink>
@@ -14,7 +16,19 @@ const links = <>
 
 const Navbar = () => {
     
-    const {user}=use(AuthContext);
+    const {user, logOut}=use(AuthContext);
+
+    const handleLogout =()=>{
+        console.log("logout successfully");
+        logOut().then(() => {
+            toast.success("Logout Successfully")
+        })
+        .catch((error) => {
+            console.log(error);
+            
+        });
+
+    }
 
     return (
         <div className='sticky top-0 bottom-0 z-50 bg-sky-900 bg-o h-auto text-white font-bold'>
@@ -29,9 +43,15 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <div className="navbar-end">
+                    <div className="navbar-end gap-3">
                         <a className="">{user && user.email}</a>
-                        <img src="" alt="" />
+                        <img className='w-12 h-12 rounded-[50%]' src={`${user ? user.photoURL : userIcon}`} alt="" />
+                        {
+                            user ? <button onClick={handleLogout} className='btn bg-white text-black px-6 py-1'>Logout</button>
+                            :  
+                            <Link to="/auth/login"><button className='btn bg-white text-black px-6 py-1'>Login</button></Link>
+                        }
+                       
                     </div>
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

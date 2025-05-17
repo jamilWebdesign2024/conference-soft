@@ -1,10 +1,49 @@
-import React from 'react';
+import React, { use, useState } from 'react';
 import { Link } from 'react-router';
+import { AuthContext } from '../../Provider/AuthProvder';
 
 const Register = () => {
+    const {createUser, setUser, updateUser}=use(AuthContext)
+    const [nameError, setNameError]=useState("");
 
     const handleRegister =(e)=>{
-        e.preventDefault;
+        e.preventDefault();
+        // console.log(e.target);
+        const form = e.target;
+        const name = form.name.value;
+        if(name.length < 5){
+            setNameError("name Should be more then 5 character");
+            return;
+        }else{
+            setNameError("")
+        }
+        const photo = form.photo.value;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log({name, photo, email, password});
+        createUser(email, password)
+        .then(result=>{
+            const user=result.user;
+            // console.log(user);
+            updateUser({displayName: name, photoURL: photo})
+            .then(()=>{
+                setUser({...user, displayName: name, photoURL: photo})
+            }).catch((error) => {
+            console.log(error);
+            setUser(user)
+            });
+            
+            
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            alert(errorMessage)
+            
+        });
+
+        
+        
     }
 
     return (
@@ -18,14 +57,20 @@ const Register = () => {
                     <input 
                     type="text" 
                     name='name' 
+                    required
                     className="input" 
                     placeholder="Your Name" />
+
+                    {
+                        nameError && <p className='text-xs text-error'>{nameError}</p>
+                    }
 
                     {/* Photo url */}
                     <label className="label">Photo Url</label>
                     <input 
                     type="text" 
                     name='photo' 
+                    required
                     className="input" 
                     placeholder="Photo url" />
 
@@ -34,6 +79,7 @@ const Register = () => {
                     <input 
                     type="email" 
                     name='email' 
+                    required
                     className="input" 
                     placeholder="Your Email" />
 
@@ -42,6 +88,7 @@ const Register = () => {
                     <input 
                     type="password" 
                     name='password' 
+                    required
                     className="input" 
                     placeholder="password" />
                     
