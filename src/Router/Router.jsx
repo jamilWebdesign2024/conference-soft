@@ -4,6 +4,8 @@ import Home from "../Components/IHome/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import About from "../Pages/About/About";
 import Details from "../Pages/Details/Details";
+import Login from "../Pages/Login/Login";
+import Register from "../Pages/Register/Register";
 
 const router = createBrowserRouter([
     {
@@ -30,7 +32,17 @@ const router = createBrowserRouter([
                 path: '/details/:id',
                 loader: ()=>fetch('/conferenceData.json'),
                 Component: Details
+            },
+            {
+                path: "/auth/login",
+                Component: Login,
+            },
+            {
+                path: "/auth/register",
+                Component:Register
             }
+                
+            
         ]
     }
 ]);

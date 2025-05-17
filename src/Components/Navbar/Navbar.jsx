@@ -1,36 +1,24 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Link, NavLink } from 'react-router';
 import icon from '../../assets/logo.png'
 import './Navbar.css';
+import { AuthContext } from '../../Provider/AuthProvder';
 
 const links = <>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About Us</NavLink>
         <NavLink to="/details">Details</NavLink>
-        <NavLink to="/speakers">Speakers</NavLink>
-        <NavLink to="login">Login</NavLink>
-        <NavLink to="register">Register</NavLink>
+        <NavLink to="/auth/login">Login</NavLink>
+        <NavLink to="/auth/register">Register</NavLink>
 </>
 
 const Navbar = () => {
+    
+    const {user}=use(AuthContext);
+
     return (
         <div className='sticky top-0 bottom-0 z-50 bg-sky-900 bg-o h-auto text-white font-bold'>
-            {/* <nav className='flex items-center justify-between  w-11/12 mx-auto'> */}
-                {/* <div>
-                    <img className='w-28 h-28' src={icon} alt="" />
-                </div>
-                <div className='space-x-10'>
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/about">About Us</NavLink>
-                    <NavLink to="/speakers">Speakers</NavLink>
-                    <NavLink to="login">Login</NavLink>
-                    <NavLink to="register">Register</NavLink>
-                    
-                </div>
-                <div>
-                    <Link><button className=''></button></Link>
-                </div> */}
-
+            
             <div className="navbar w-10/12 mx-auto ">
                     <div className="navbar-start">
                         
@@ -42,7 +30,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a className=""></a>
+                        <a className="">{user && user.email}</a>
+                        <img src="" alt="" />
                     </div>
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
